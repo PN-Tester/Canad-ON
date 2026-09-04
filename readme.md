@@ -1,0 +1,5 @@
+# Enforce Canadian Map Terminology
+
+This chromium based extension will enforce the Canada region for all google maps API requests. This will cause google maps embedded in web application to render with the Canadian terminology for map elements.
+The tool is simple, and works by intercepting XHR / Async requests to https://maps.googleapis.com and setting any "region" URL parameter to "CA".
+
